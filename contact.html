@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <!-- Font AWESOME SCRIPT INCLUSION (ICONS)-->
+   <script src="https://kit.fontawesome.com/7b36db9d89.js" crossorigin="anonymous"></script>
+
+   <!--Fonts  -->
+        <!--San Serif Font-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+        <!--Cursive Font-->
+        <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+   <!-- CSS FILE LINKED -->
+    <link rel="stylesheet" href="style.css">
+    <title>Twilight Contact Page</title>
+</head>
+<body>
+       <!--Header-->
+       <header class="navbar">
+        <nav>
+              <div id="logo">  
+            <img id="logo-img" src="src/wine-logo-3-removebg-preview.png" alt="Wine logo" id="logo">
+           <h1 class="nav-logo cursive">The Twilight</h1>
+        </div>
+            <!--Displays use of lists-->
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="menu.html">Menu</a></li>
+               <li><a class="current" href="contact.html">Contact</a></li>
+           </ul>
+       </nav>
+    </header>
+    
+    <div style="padding: 1rem 3rem;" id="contact-container">
+        <div id="contact-page-title"> 
+            <p  class="title cursive">Contact Us</p>
+        </div> 
+        <!-- Use of Image Tags -->
+        <img id="contact-page-img" src="src/wine-logo-2-removebg-preview.png" alt="Wine Bottle" style="height:80% ;">
+            
+                
+        <section id="locations">
+            <i class="fas fa-map-pin fa-2x pink" style="margin:auto;"></i>
+            <p class="sub-heading serif ">Locations</p>
+                <ul style="line-height:2.5rem ;">
+                    <li class="serif">London, England</li>
+                    <li class="serif">Halifax,Nova Scotia Canada</li>
+                    <li class="serif">Toronto, Ontario, Canada</li>
+                    <li class="serif">Boston, Massachusetts, USA</li> 
+                </ul>
+                
+            <!-- MAKE RESERVATIONS BUTTON -->
+            <div id="reserve">
+                <!--Displays use of an external Link, just goes to OpenTable -->
+            <a href="https://restaurant.opentable.ca/en/why-opentable/" class="btn btn-md btn-dark" style="margin:1.5rem auto;">Make your Reservation</a>
+        </div>
+        </section>
+        <section id="contact-info">
+                <p class="sub-heading serif pink">Our Details</p>
+                <div>
+                    <p class="serif">Head Office: Halifax, Nova Scotia</p>
+                    <p class="serif">Telephone: 902-386-3559</p>
+                    <p class="serif">Email: info@thetwilightres.ca</p>
+                    <p class="serif">Address: 132 Barrington Street, Halifax NS, B21 C4F</p>
+                </div>
+            </section>
+            <section id="form-card">
+            <div class="card bg-light" style="height:95%;">
+                <p class="serif pink sub-heading">Shoot Us A Message</p>
+                <form id="form">
+                    <div>
+                    <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <div>
+                    <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="888-888-8888">
+                    </div>
+                    <div>
+                    <input type="text" id="subject" placeholder="Subject">
+                    </div>
+                    <div>
+                    <textarea id="message"  placeholder="Type your message" rows="10"></textarea>
+                     </div>
+                     <div id="form-btn">
+                    <a href="#" class="btn btn-dark btn-md">Send <i class="fa fa-send"></i></a>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+    <footer id="footer">
+        <p>Developed by KC Developemnt &copy; 2022</p>
+        <p>Kedejra Cameron</p>
+        <p>Images and videos retrieved from Pexels and Unsplash</p>
+    </footer>
+</body>
